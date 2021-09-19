@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83ae2b56-7de4-4e82-a0d8-f621ad8c9146" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1uir3ncnlXSmz9p067ENduDjFeY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Selenium Academy Project\CursoSeleniumAcademy\drivers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.PracticoClase1">
+    <configuration name="PracticoClase1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SAExcercises_EstebanSilva" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clase1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Clase1" />
+      <option name="MAIN_CLASS_NAME" value="Clase1.PracticoClase1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticoClase1.ejercicioBusquedasAnidadas2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CursoSeleniumAcademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clase1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Clase1" />
+      <option name="MAIN_CLASS_NAME" value="Clase1.PracticoClase1" />
+      <option name="METHOD_NAME" value="ejercicioBusquedasAnidadas2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticoClase1.ejercicioBusquedasAnidadas3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CursoSeleniumAcademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clase1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Clase1" />
+      <option name="MAIN_CLASS_NAME" value="Clase1.PracticoClase1" />
+      <option name="METHOD_NAME" value="ejercicioBusquedasAnidadas3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticoClase1.ejercicioGetAttribute2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CursoSeleniumAcademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clase1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Clase1" />
+      <option name="MAIN_CLASS_NAME" value="Clase1.PracticoClase1" />
+      <option name="METHOD_NAME" value="ejercicioGetAttribute2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticoClase1.ejercicioGetAttribute3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CursoSeleniumAcademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clase1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Clase1" />
+      <option name="MAIN_CLASS_NAME" value="Clase1.PracticoClase1" />
+      <option name="METHOD_NAME" value="ejercicioGetAttribute3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.PracticoClase1" />
+        <item itemvalue="TestNG.PracticoClase1.ejercicioGetAttribute3" />
+        <item itemvalue="TestNG.PracticoClase1.ejercicioGetAttribute2" />
+        <item itemvalue="TestNG.PracticoClase1.ejercicioBusquedasAnidadas3" />
+        <item itemvalue="TestNG.PracticoClase1.ejercicioBusquedasAnidadas2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83ae2b56-7de4-4e82-a0d8-f621ad8c9146" name="Default Changelist" comment="" />
+      <created>1625159055982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625159055982</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="sectionWithDateAndGuest.getText().contains((checkInDateForAssert))" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
