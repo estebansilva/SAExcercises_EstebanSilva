@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -12,26 +13,6 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
-
-//Consultas
-
-/*
-1- Porque usan driver.get() en vez de driver.navigate()
-2- En el ejercico 5 no logro que me tome las siguientes funciones //*[text()='Inicia sesión']
-lo maximo que pude llegar a acotar es de la siguiente manera //span[@class='bui-button__text' and contains(text(),'Inicia sesión')]
-Encontre otra forma que trae solo uno pero me quedan dudas //* [@class='bui-button__text' and normalize-space()='Inicia sesión']
-3- Al ingresar al sitio observe que me cambia el país y los textos son distintos, hay alguna forma de considerar esto cuando armamos los scripts?? (Comparando por el origen pais)
-4- Ej5: ¿Si realizo el Assert donde no se encuentra el botón antes, es necesario hacer el trycatch cuando hacemos el click en el botón?
-5- Ejercicios de Get Attribute, si realizo (eachdiv.getAttribute("id") != null) recupera todos los div y usando "" recupera los 5. ¿Porque?
-6- Ejercicio get attribute trae el siguiente <img class="header-aux-image" src="https://mundomac.com/wp-content/themes/electro-child/assets/img/cabezal.png">
-que no tiene el atributo ALT  66 Vs 65 en la página
-//https://stackoverflow.com/questions/6828362/difference-between-string-isempty-and-string-equals/6828386
-7- Ver el comentario en ejercicioprofesor
- */
-
-
-
-
 
 public class PracticoClase1 {
 
@@ -206,7 +187,7 @@ public class PracticoClase1 {
     @Test
     public void ejercicioGetAttribute1(){
 
-        driver.get("https://mundomac.com");
+        driver.navigate().to("https://mundomac.com");
 
         List<WebElement> listImg = driver.findElements(By.tagName("img"));
         Assert.assertFalse(listImg.isEmpty(), "La lista esta vacia");
@@ -225,13 +206,13 @@ public class PracticoClase1 {
         }
         System.out.println("La cantidad de IMG con texto son "+ countAltWithText);
         System.out.println("La cantidad de IMG sin texto alternativo son " + countAltWithOutText);
-        //driver.close();
+
     }
 
     @Test
     public void ejercicioGetAttribute2(){
 
-        driver.get("https://mundomac.com");
+        driver.navigate().to("https://mundomac.com");
         boolean sameClassName = true;
         List<WebElement> listBtn = driver.findElements(By.tagName("button"));
         Assert.assertFalse(listBtn.isEmpty(), "La lista de botones esta vacía");
@@ -276,34 +257,9 @@ public class PracticoClase1 {
 
             }
         }
-        System.out.println(linkCount);
-        driver.close();
+        System.out.println("Se encontraron" + linkCount + "links sin href");
+
     }
-
-    /*@Test
-    public void ejercicioprofe(){
-
-        //En esta resolución solo recupera los Li que estén dentro de los UL y además solo el primer tag A de las li.¿Esta bien?
-        driver.get("https://mundomac.com");
-
-        List<WebElement> ulList = driver.findElements(By.tagName("ul"));
-        int cont = 0;
-        for (WebElement ul : ulList){
-            List<WebElement>  lis = ul.findElements(By.tagName("li"));
-
-            for (WebElement li : lis){
-                try {
-                    WebElement link = li.findElement(By.tagName("a"));
-                    System.out.println(link.getAttribute("href"));
-
-                }catch (Exception e){
-                    System.out.println("Elemento sin href");
-                    cont++;
-                }
-            }
-        }
-        System.out.println(cont);
-    }*/
 
     @Test
     public void ejercicioGetAttribute4(){
@@ -325,25 +281,8 @@ public class PracticoClase1 {
                 countImg++;
             }
 
-            /*try{
-
-                if(eachImg.getAttribute("alt").isEmpty()){
-
-                }else{
-                    imgWithAlt.add(eachImg);
-                    System.out.println(eachImg.getAttribute("alt"));
-                    countImg++;
-                }
-
-            }catch(Exception e){
-                System.out.println("No tiene alt, su src es " + eachImg.getAttribute("src"));
-                imgWithOutAlt.add(eachImg);
-
-            }*/
-
         }
         System.out.println(countImg);
-        driver.close();
 
     }
 
@@ -363,5 +302,8 @@ public class PracticoClase1 {
         return null;
     }
 
-
+    @AfterMethod
+    public void closeDriver() {
+        driver.close();
+    }
 }
