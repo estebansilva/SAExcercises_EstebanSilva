@@ -1,0 +1,14 @@
+<suite name="SuiteTest">
+
+    <listeners>
+        <listener class-name="Clase10.Ejercicio6.Clases.SuiteListeners">  </listener>
+    </listeners>
+
+        <test name = "youtubeTest">
+            <classes>
+                <class name = "Clase10.Ejercicio6.Clases.YoutubeTest"></class>
+                <class name = "Clase10.Ejercicio6.Clases.NetflixTest"></class>
+            </classes>
+        </test>
+
+</suite>
