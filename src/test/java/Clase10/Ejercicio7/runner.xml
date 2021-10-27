@@ -1,0 +1,16 @@
+<suite name = "runner ejercicio 10">
+
+    <listeners>
+        <listener class-name = "Clase10.Ejercicio7.TestListener"> </listener>
+    </listeners>
+
+    <test name="Escenarios para Ejercicio 7 ">
+        <classes>
+            <class name ="Clase10.Ejercicio7.TestToUseListener">
+            </class>
+
+        </classes>
+
+    </test>
+
+</suite>
